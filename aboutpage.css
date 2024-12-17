@@ -1,0 +1,126 @@
+body {
+  margin: auto;
+  line-height: 1.6;
+  text-align: justify;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, gold, black, darkred, darkblue, black, gold);
+}
+
+.close {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.close-title {
+  display: flex;
+  justify-content: center;
+}
+
+.close-title p{
+  font-family: sitka subheading;
+  font-size: 18px;
+  color: black;
+  margin-left: auto;
+  text-align: center;
+  margin-right: 380px;
+}
+
+.close a{
+  color: white;
+  text-decoration: none;
+}
+
+.close-buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.close-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 30%;
+  font-size: 18px;
+  background-color: #ccc;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+  
+.close-button:hover {
+  background-color: #ddd;
+  }
+    
+header {
+  text-align: center;
+}
+  
+h1 {
+  font-family: stencil;
+  text-shadow: 5px 10px 8px black;
+  font-size: 50px;
+  color: white;
+}
+  
+.majestic {
+  font-family: vivaldi;
+  font-size: 30px;
+  color: white;
+}
+
+.luxmundi {
+  width: 600px;
+  height: 330px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0px 0px 20px 3px white;
+  margin-bottom: 13rem;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+#about-the-cup {
+  margin: 20px;
+  border: 5px solid black;
+  background: linear-gradient(to left, rgb(246, 234, 4), black, black, black, black, black, black, black, black, black, rgb(246, 234, 4));
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#my-experience {
+  margin: 20px;
+  border: 5px solid black;
+  background: linear-gradient(to left, rgb(246, 234, 4), black, black, black, black, black, black, black, black, black, rgb(246, 234, 4));
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: Sitka Heading Semibold;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  text-indent: 50px;
+  font-family: Sitka Subheading;
+  font-size: 17px;
+  color: white;
+  margin: 30px;
+}
+
+.footer {
+  color: white;
+  margin: 50px;
+  text-align: center;
+}

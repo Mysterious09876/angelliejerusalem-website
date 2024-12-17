@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(pexels-artem-yellow-422929671-15188442.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.container {
+    top: 8px;
+    position: relative;
+    
+}
+
+
+.inner-container {
+    max-width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.left {
+    float: left;
+}
+
+
+.right {
+    float: right;
+}
+
+.click-li a:hover {
+    border-bottom: 3px solid white;
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
+}
+
+.click-li {
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: sitka;
+    font-size: 20px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    position: relative;
+    height: 42px;
+    border-radius: 100%;
+    width: 43px;
+    height: 40px;
+    filter: drop-shadow(0px 0px 3px black);
+}
+
+.search-position {
+    display: inline-block;
+    padding: 14px;
+    margin: -6px;
+}
+
+.search {
+    background: #fff;
+    color: black;
+    height: 32px;
+    border-radius: 3px;
+    border: none;
+    width: 340px;
+    position: relative;
+    top: -4px;
+    padding-left: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-outer {
+    position: relative;
+}
+
+.search-hint {
+    position: absolute;
+    right: 9px;
+    top: 0px;
+    height: 23px;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+@media (max-width: 1446px) {
+    .inner-container {
+    max-width: 92%;
+}
+.click-li {
+    padding: 8px;
+}
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    margin-top: 290px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+
+.text h3 {
+    text-shadow: 10px 8px 5px grey;
+    font-family: Sitka text heading;
+    font-size: 100px;
+    margin-top: 0px; 
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.text p {
+    font-family: Sitka text heading;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+}
